@@ -1,0 +1,20 @@
+POST http://localhost:2001/api/v1/transactions
+Content-Type: application/json
+
+{
+    "name":"fadjar rizky ramadhan",
+    "email":"fadzar@gmail.com",
+    "address":"jalan gatot subroto",
+    "transaction_total":100,
+    "transaction_status":"FAILED"
+}
+###
+DELETE http://localhost:2001/api/v1/transactions/
+###
+GET http://localhost:2001/api/v1/transactions/
+
+###
+GET http://localhost:2001/api/v1/transactions/1
+###
+PUT http://localhost:2001/api/v1/transactions/
+

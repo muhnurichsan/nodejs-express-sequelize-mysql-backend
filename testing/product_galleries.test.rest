@@ -1,0 +1,13 @@
+### Use Postman,because we use multipart form that contains image files
+POST http://localhost:2001/api/v1/product_galleries/
+
+###
+DELETE http://localhost:2001/api/v1/product_galleries/1
+###
+GET http://localhost:2001/api/v1/product_galleries/
+
+###
+GET http://localhost:2001/api/v1/product_galleries/
+###
+PUT http://localhost:2001/api/v1/product_galleries/
+

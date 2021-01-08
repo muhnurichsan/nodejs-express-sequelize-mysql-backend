@@ -1,0 +1,3 @@
+-STORE SESSION TO DATABASE ->done
+-make documentation for testing 
+-storing jwt authentication safely

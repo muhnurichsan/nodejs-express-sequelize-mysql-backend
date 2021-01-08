@@ -1,0 +1,23 @@
+POST http://localhost:2001/api/v1/products
+Content-Type: application/json
+
+{
+    "name":"visval chill bag",
+    "type":"bag",
+    "slug":"visval-bag",
+    "price":100,
+    "quantity":100
+}
+###
+DELETE http://localhost:2001/api/v1/products/3  
+###
+GET http://localhost:2001/api/v1/products/4
+###
+GET http://localhost:2001/api/v1/products
+###
+PUT http://localhost:2001/api/v1/products/4
+Content-Type: application/json
+
+{
+    "slug":"vans-bag"
+}

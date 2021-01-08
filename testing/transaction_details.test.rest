@@ -1,0 +1,16 @@
+POST http://localhost:2001/api/v1/transaction_details
+Content-Type: application/json
+
+{
+    "TransactionId":1,
+    "ProductId":1
+}
+###
+DELETE http://localhost:2001/api/v1/transaction_details/
+###
+GET http://localhost:2001/api/v1/transaction_details/
+
+###
+GET http://localhost:2001/api/v1/transaction_details/1
+###
+PUT http://localhost:2001/api/v1/transaction_details/

@@ -1,0 +1,18 @@
+POST http://localhost:2001/api/v1/login
+Content-Type: application/json
+
+{
+    "username":"ichsan",
+    "password":"iniuserichsan"
+}
+
+###
+POST http://localhost:2001/api/v1/token
+Content-Type: application/json
+
+{
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBdXRoRGF0YSI6eyJpZCI6MiwidXNlcm5hbWUiOiJpY2hzYW4iLCJlbWFpbCI6ImljaHNhbkBnbWFpbC5jb20iLCJwYXNzd29yZCI6IiQyYiQxMCRsbG1RMlMvME1HOXFXVFczdURXZUJlYXNtaWdYQWRjTVViZGlLL29qWkVmTjBXS3pLZkNucSIsImNyZWF0ZWRBdCI6IjIwMjAtMTItMjVUMTQ6NTY6MDUuMDAwWiIsInVwZGF0ZWRBdCI6IjIwMjAtMTItMjVUMTQ6NTY6MDUuMDAwWiIsImRlbGV0ZWRBdCI6bnVsbH0sImlhdCI6MTYwODkwODM1N30.UgJObJCghQc96wcgJ9xDXon0OcfELKVkEf6YYgX8m-A"
+}
+
+###
+DELETE http://localhost:2001/api/v1/logout
